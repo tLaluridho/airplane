@@ -1,40 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-Color kPrimaryColor = Color(0xff5C40CC);
-Color kBlackColor = Color(0xff1F1449);
-Color kwhiteColor = Color(0xffFFFFFF);
-Color kGreyColor = Color(0xff9698A9);
-Color kGreenColor = Color(0xff0EC3AE);
-Color kRedColor = Color(0xffEB70A5);
-Color kBackgorundColor = Color(0xffFAFAFA);
-Color kInactiveColor = Color(0xffDBD7EC);
+double defaultMargin = 24.0;
+double defaultRadius = 17.0;
 
+Color kPrimaryColor = const Color(0xff5C40CC);
+Color kBlackColor = const Color(0xff1F1449);
+Color kwhiteColor = const Color(0xffFFFFFF);
+Color kGreyColor = const Color(0xff9698A9);
+Color kGreenColor = const Color(0xff0EC3AE);
+Color kRedColor = const Color(0xffEB70A5);
+Color kBackgorundColor = const Color(0xffFAFAFA);
+Color kInactiveColor = const Color(0xffDBD7EC);
 
-TextStyle blackTextStyle = GoogleFonts.poppins(
-  color: kBlackColor
-);
+TextStyle blackTextStyle = GoogleFonts.poppins(color: kBlackColor);
 
-TextStyle whiteTextStyle = GoogleFonts.poppins(
-  color: kwhiteColor
-);
+TextStyle whiteTextStyle = GoogleFonts.poppins(color: kwhiteColor);
 
-TextStyle greyTextStyle = GoogleFonts.poppins(
-  color: kGreyColor
-);
+TextStyle greyTextStyle = GoogleFonts.poppins(color: kGreyColor);
 
-TextStyle greenTextStyle = GoogleFonts.poppins(
-  color: kGreenColor
-);
+TextStyle greenTextStyle = GoogleFonts.poppins(color: kGreenColor);
 
-TextStyle redTextStyle = GoogleFonts.poppins(
-  color: kRedColor
-);
+TextStyle redTextStyle = GoogleFonts.poppins(color: kRedColor);
 
-TextStyle purpleTextStyle = GoogleFonts.poppins(
-  color: kPrimaryColor
-);
-
+TextStyle purpleTextStyle = GoogleFonts.poppins(color: kPrimaryColor);
 
 FontWeight light = FontWeight.w300;
 FontWeight regular = FontWeight.w400;
